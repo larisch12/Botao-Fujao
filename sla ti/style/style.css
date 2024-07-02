@@ -1,49 +1,56 @@
-|*{
+|/*resetando o css dos nossos elementos html*/
+*{
     margin: 0;
     padding: 0;
 }
 
+/*estilizando a main*/
 main{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(252, 230, 202);
+    background-color: rgb(196, 248, 250);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .content img{
-    width: 400px;
+    width: 300px;
     height: fit-content;
-
+    margin-bottom: 30px;
 }
+
 .content{
     background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
+
 h1{
-    color:rgb(158, 119, 71);
+    color: rgb(5, 5, 5);
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#not{
-    background-color: rgb(153, 117, 73);
+
+.not{
+    background-color: rgb(114, 201, 216);
     border: none;
-    width: 80px;
-    height: 30px;
+    width: 60px;
+    height: 40px;
     border-radius: 10px;
-    color: bisque;
+    color: rgb(0, 0, 0);
+    font-size: xx-small;
 }
-#yes{
-    background-color: rgb(153, 117, 73);
+.yes{
+   background-color: rgb(114, 201, 216);
     border: none;
-    width: 80px;
-    height: 30px;
+    width: 60px;
+    height: 40px;
     border-radius: 10px;
-    color: rgb(236, 213, 185);
+    color: rgb(0, 0, 0);
+    font-size: xx-small;
 }
